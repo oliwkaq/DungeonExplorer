@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.ComponentModel;
 
 namespace DungeonExplorer
 {
@@ -14,7 +13,6 @@ namespace DungeonExplorer
             Name = name;
             Health = health;
         }
-        
         public void PickUpItem(string item)
         {
 
@@ -25,4 +23,3 @@ namespace DungeonExplorer
         }
     }
 }
-
